@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.header {
+    padding: 0;
+}
+
+.headerImage {
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+}
+
+.sidebar {
+    background-color: cadetblue;
+    width: 200px;
+}
+
+.body {
+    background-color: lemonchiffon;
+}
+
+.rightSidebar {
+    background-color: mediumpurple;
+    width: 200px;
+}
+
+.footer {
+    background-color: white;
+    text-align: center;
+    color: grey;
+}
+td {
+    padding: 10px;
+}
