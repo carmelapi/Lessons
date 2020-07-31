@@ -21,6 +21,7 @@ body {
 
 .body {
     background-color: lemonchiffon;
+    padding:50px;
 }
 
 .rightSidebar {
@@ -35,4 +36,37 @@ body {
 }
 td {
     padding: 10px;
+}
+
+.bodyImage {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    font-family: serif;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color:#636363;
+}
+
+sub {
+    color:#325a40;
+    font-weight: 600;
+}
+
+blockquote {
+    color: indianred;
+    line-height: 20px;
+}
+
+p {
+    color:#636363;
+    line-height: 30px;
 }
