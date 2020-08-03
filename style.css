@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+    margin: 0;
 }
 .header {
     padding: 0;
@@ -10,13 +11,42 @@ body {
     width: 100%;
 }
 
+#primaryMenu {
+    background-color: white;
+    padding: 0;
+    list-style: none;
+}
+
+#primaryMenu > li {
+    border-bottom: 1px solid black;
+    padding: 0.6em 0;
+    text-decoration: none;
+}
+#primaryMenu > li:hover {
+    background-color: gray;
+}
+#primaryMenu > li > a {
+    text-decoration: none;
+}
+
+a {
+    color: orange;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+
 .table {
-    width: 100%;
+    width: 1280px;
+    margin: 0 auto;
 }
 
 .sidebar {
     background-color: cadetblue;
     width: 200px;
+    vertical-align: top;
 }
 
 .body {
@@ -70,3 +100,4 @@ p {
     color:#636363;
     line-height: 30px;
 }
+
