@@ -23,3 +23,4 @@ document.querySelector ("#buttonTwo").addEventListener ("click", () => {
     let diffenzaHtml = document.querySelector ("#diff");
     diffenzaHtml.value = differenza;
 });
+

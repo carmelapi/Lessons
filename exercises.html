@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Exercise</title>
+        <link rel="stylesheet" href="styleExercises.css">
+    </head>
+    <body>
+        <div class="box">
+            <div class="boxInside">
+                <div><h1>Codice Fiscale</h1></div>
+                <div class="firstName">
+                    <label for="firstInput">First Name</label>
+                    <input id="firstInput"/>
+                </div>
+                <div class="lastName">
+                    <label for="secondInput">Last Name</label>
+                    <input id="secondInput"/>
+                </div>
+                <div class="CoB">
+                    <label for="InputCoB">City of Birth</label>
+                    <input id="InputCoB"/>
+                </div>
+                <div class="city">
+                    <label for="inputCity">City</label>
+                    <input id="inputCity"/>
+                </div>
+                <div class="Date">
+                    <label for="birthday">Date of Birth</label>
+                    <input type="date" id="birthday" name="birthday">    
+                    </select>
+                </div>
+                <div class="Gender">
+                    <label>Gender</label>
+                    <div class="male">
+                        <input type="radio" id="genderMale" name="gender">
+                        <label for="genderMale"> Male</label>
+                    </div>
+                    <div class="female">
+                        <input type="radio" id="genderFemale" name="gender">
+                        <label for="genderFemale"> Female</label>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="calcolo">
+                <button class="btnTot">Calcola CF</button>
+                <input readonly id="butInput"/>
+            </div>
+            <script type="text/javascript" src="codiceFiscale.js"></script>
+        </div>
+    </body>
+</html>
